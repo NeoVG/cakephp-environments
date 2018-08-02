@@ -1,9 +1,9 @@
 {
-    "name": "josegonzalez/cakephp-environments",
-    "description": "CakePHP plugin to handle environments-level configuration",
+    "name": "neovg/cakephp-environments",
+    "description": "CakePHP 2 plugin to handle environments-level configuration",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "environments", "configuration"],
-    "homepage": "https://github.com/josegonzalez/cakephp-environments",
+    "homepage": "https://github.com/NeoVG/cakephp-environments",
     "license": "MIT",
     "authors": [
         {
@@ -24,13 +24,10 @@
         }
     ],
     "require": {
-        "cakephp/cakephp": "~3.0",
+        "cakephp/cakephp": "~2.0",
         "php": ">=5.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.1.*",
-        "cakephp/cakephp-codesniffer": "dev-master",
-        "satooshi/php-coveralls": "dev-master"
     },
     "support": {
         "email": "cakephp+environments@josediazgonzalez.com",
